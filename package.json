@@ -1,0 +1,39 @@
+{
+  "name": "strip-html",
+  "version": "1.0.0",
+  "description": "strip html streamingly",
+  "main": "index.js",
+  "bin": {
+    "strip-html": "bin/cmd.js"
+  },
+  "dependencies": {
+    "html-tokenize": "~1.2.2",
+    "stream-combiner2": "~1.0.2",
+    "through2": "~0.6.3",
+    "minimist": "~1.1.0"
+  },
+  "devDependencies": {
+    "concat-stream": "~1.4.6",
+    "tape": "^3.0.0"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/substack/strip-html.git"
+  },
+  "homepage": "https://github.com/substack/strip-html",
+  "keywords": [
+    "html",
+    "strip",
+    "sanitize",
+    "stream"
+  ],
+  "author": {
+    "name": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net"
+  },
+  "license": "MIT"
+}

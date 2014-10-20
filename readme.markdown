@@ -44,6 +44,19 @@ as output.
 Note that the output side might contain html entities because this module does
 not decode entities itself.
 
+# usage
+
+This package also comes with a `strip-html` command:
+
+```
+usage: strip-html {OPTIONS}
+
+  -i, --infile   Read input from a file. Default: "-" (stdin)
+  -o, --outfile  Write output to a file. Default: "-" (stdout)
+  -h, --help     Show this message.
+
+```
+
 # install
 
 With [npm](https://npmjs.org) do:

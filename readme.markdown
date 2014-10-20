@@ -2,6 +2,8 @@
 
 strip html streamingly
 
+[![build status](https://secure.travis-ci.org/substack/strip-html.png)](http://travis-ci.org/substack/strip-html)
+
 # example
 
 ``` js

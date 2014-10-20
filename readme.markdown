@@ -67,6 +67,12 @@ With [npm](https://npmjs.org) do:
 npm install strip-html
 ```
 
+or to get the command, do:
+
+```
+npm install strip-html -g
+```
+
 # license
 
 MIT

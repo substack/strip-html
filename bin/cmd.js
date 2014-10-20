@@ -19,7 +19,7 @@ var output = argv.outfile === '-'
     ? process.stdout
     : fs.createReadStream(argv.outfile)
 ;
-input.pipe(strip()).pipe(process.stdout);
+input.pipe(strip()).pipe(output);
 
 function showHelp (code) {
     var r = fs.createReadStream(path.join(__dirname, 'usage.txt'));

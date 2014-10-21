@@ -17,7 +17,7 @@ var input = argv.infile === '-'
 ;
 var output = argv.outfile === '-'
     ? process.stdout
-    : fs.createReadStream(argv.outfile)
+    : fs.createWriteStream(argv.outfile)
 ;
 input.pipe(strip()).pipe(output);
 

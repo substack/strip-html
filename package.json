@@ -1,6 +1,6 @@
 {
   "name": "strip-html",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "strip html streamingly",
   "main": "index.js",
   "bin": {

@@ -3,7 +3,7 @@ var combine = require('stream-combiner2');
 var through = require('through2');
 
 var tagMatcher      = /^<([^ >]_[ >])/;
-var ignoreBlockTags = ['script', '!--'];
+var ignoreBlockTags = ['script', 'style', '!--'];
 
 function getTagName(str) {
     return str.match(tagMatcher)[1];
